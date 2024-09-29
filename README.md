@@ -130,7 +130,7 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
         exit – log out of current session
 
 ## Linux File System:
-Everything is a file!
+    Everything is a file!
         /bin - essential commands
         /sbin - super user essential commands
         /usr - userspace folder
