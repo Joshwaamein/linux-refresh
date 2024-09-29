@@ -1,6 +1,6 @@
 ## Systems Engineer Study
 
-    Systems Engineering (also known as Infrastructure Engineering, Operations Engineering, or DevOps) is a challenging but rewarding career path. Because Systems Engineering draws from a wide variety of smaller topics, it can be hard to know where to start and in what order to begin. This resource is intended to give you a sketch of some of the learning-paths that that can lead you to a career in Systems Engineering.
+Systems Engineering (also known as Infrastructure Engineering, Operations Engineering, or DevOps) is a challenging but rewarding career path. Because Systems Engineering draws from a wide variety of smaller topics, it can be hard to know where to start and in what order to begin. This resource is intended to give you a sketch of some of the learning-paths that that can lead you to a career in Systems Engineering.
 
 ## linux-refresh
 
@@ -202,8 +202,8 @@ Command line tools in Linux are all file based. Essential commands are found in 
 # Pattern Matching / Batch Processing Utilities
     awk, sed
 # Networking Fundamentals
-    The OSI Model
-Internet Protocols
+    The OSI Model:
+# Internet Protocols
     tcp/ip, tls/ssl, http, dns
 # Network Security
     firewall, iptables
