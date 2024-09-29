@@ -1,4 +1,4 @@
-## Systems Engineer Study
+## Systems Engineering Study
 
 Systems Engineering (also known as Infrastructure Engineering, Operations Engineering, or DevOps) is a challenging but rewarding career path. Because Systems Engineering draws from a wide variety of smaller topics, it can be hard to know where to start and in what order to begin. This resource is intended to give you a sketch of some of the learning-paths that that can lead you to a career in Systems Engineering.
 
