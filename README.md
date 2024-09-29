@@ -1,7 +1,14 @@
+## Systems Engineer Study
+
+    Systems Engineering (also known as Infrastructure Engineering, Operations Engineering, or DevOps) is a challenging but rewarding career path. Because Systems Engineering draws from a wide variety of smaller topics, it can be hard to know where to start and in what order to begin. This resource is intended to give you a sketch of some of the learning-paths that that can lead you to a career in Systems Engineering.
+
 ## linux-refresh
 
 Command line tools in Linux are all file based. Essential commands are found in the bin (binaries) directory on /bin. Super user commands are in /sbin. 
 
+
+
+## Linux
     Important Linux Commands List:
 
         ##File Commands:
@@ -173,3 +180,30 @@ Command line tools in Linux are all file based. Essential commands are found in 
     Antivirus:
 
 
+# Operating System Fundamentals
+    The POSIX family of Standards (Portable Operating System Interface)
+    "Unix-like" Operating Systems (Linux)
+    Process Models
+    Threading
+    File Systems
+    Permissions
+# Operating System Virtualization
+    docker
+# Command-Line Shells
+    bash
+# standard streams
+    stdout, stdin, stderr
+# shell-scripting
+# Command-Line Utilities
+# General Utilities
+    man, cp, mv, cat, echo, rm, tar, grep
+# Network Utilities
+    rsync, dig, netstat, nc
+# Pattern Matching / Batch Processing Utilities
+    awk, sed
+# Networking Fundamentals
+    The OSI Model
+Internet Protocols
+    tcp/ip, tls/ssl, http, dns
+# Network Security
+    firewall, iptables
