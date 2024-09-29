@@ -4,7 +4,7 @@ Systems Engineering (also known as Infrastructure Engineering, Operations Engine
 
 ## linux-refresh
 
-Command line tools in Linux are all file based. Essential commands are found in the bin (binaries) directory on /bin. Super user commands are in /sbin. 
+Command line tools in Linux are all file based. Printers, disks and other hardware are also files.  Essential commands are found in the bin (binaries) directory on /bin. Super user commands are in /sbin. 
 
 
 
@@ -130,12 +130,25 @@ Command line tools in Linux are all file based. Essential commands are found in 
         exit – log out of current session
 
 ## Linux File System:
+# Everything is a file!
         /bin - essential commands
         /sbin - super user essential commands
         /usr - userspace folder
             /usr/bin - user essential commands (same as /bin)
             /usr/sbin - root essential commands (same as /sbin)
-        /boot - files the system needs to boot
+        /boot - files the system needs to boot. aka boot files
+        /var - log fles and web app files
+        /tmp - temp files. lost after reboot and 
+        /lib - shared librries - things the system needs to boot
+        /home - where user files live. /desktop /docs etc...
+        /root - where root user files live. /desktop /docs etc... 
+        /dev - devices, hardware and emulated hardware
+            /dev/sda1,2,3 and so on - disk files
+        /etc - configuration files for the system.. network etc... and some application files.
+            /etc/network/interfaces - network interfaces
+        /mnt and /media - mount drives (like usb flash)
+
+
 
 ## Bash Scripting:
     Linux User and group management:
