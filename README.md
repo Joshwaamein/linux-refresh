@@ -211,8 +211,8 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
         Netstat:
 
 ## Scripting and Automation
-    Python Basics for SysAdmin
-    Practice writing a bash script
+    Python Basics for SysAdmin:
+    Practice writing a bash script:
     Configuration Management tools:
         Ansible:
         Puppet:
@@ -232,7 +232,8 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
 ## Package Management
     apt - provides a high-level commandline interface for the package
     management system. (includes a repository which allows for update)
-    dpkg is a medium-level tool to install, build, remove and manage Debian packages. (no repo for updates)
+    snap - installs apps from the snap store rather than a repo (similar to apt)
+    dpkg - medium-level tool to install, build, remove and manage Debian packages. (no repo for updates)
     git - version management tool often ussed to clone git repos using git clone ...
     pip - A tool for installing and managing Python packages
 
