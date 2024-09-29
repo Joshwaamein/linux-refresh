@@ -237,6 +237,36 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
     git - version management tool often ussed to clone git repos using git clone ...
     pip - A tool for installing and managing Python packages
 
+## Processes and Daemons
+    # Processes:
+    1. A process is a program that is currently executing on your Linux system. Each process has its own unique process ID (PID) for identification and management.
+    2. Processes work in a hierarchical structure, with each process having a parent process and potentially having child processes. The init process (or systemd on modern systems) is the parent of all other processes.
+    3. Processes have their own address space, which stores code and data, isolated from other processes for security.
+    4. Processes can be in different states: running, sleeping, stopped, or zombie.
+    5. You can manage processes using commands like ps, kill, top, and htop.
+
+    # Daemons:
+    1. Daemons are a special type of background process that runs autonomously, performing tasks without user intervention.
+    2. They typically start at system boot and continue running until the system is shut down.
+    3. Daemon names often end with the letter 'd' (e.g., sshd, crond, httpd).
+    4. Daemons perform various system tasks, such as:
+        crond: manages scheduled tasks
+        sshd: handles secure shell (SSH) remote login requests
+        httpd: acts as a web server
+    5. Daemons are created through a process called "daemonization," which involves:
+        Forking a child process
+        Detaching from the controlling terminal
+        Setting the root directory as the current working directory
+        Closing unnecessary file descriptors
+    6. Daemons are managed by the init system (like systemd) and can be controlled using commands like systemctl on modern Linux systems.
+
+    # Key differences:
+    1. All daemons are processes, but not all processes are daemons.
+    2. Daemons run in the background without user interaction, while regular processes may be interactive.
+    3. Daemons typically start at boot and run continuously, while regular processes may have shorter lifespans.
+    4. Daemons often provide system-wide services, while regular processes may serve individual user tasks.
+
+
 ## Operating System Fundamentals
 # The POSIX family of Standards (Portable Operating System Interface)
 # "Unix-like" Operating Systems (Linux)
