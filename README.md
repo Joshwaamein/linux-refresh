@@ -68,6 +68,7 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
         grep -r pattern dir – search recursively for pattern in dir
         command | grep pattern – search for pattern in the output of command
         locate file – find all instances of file
+	apropos - search the manual page names and descriptions
         
         ##System Info:
 
