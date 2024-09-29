@@ -267,7 +267,7 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
     4. Daemons often provide system-wide services, while regular processes may serve individual user tasks.
 
 
-## Operating System Fundamentals
+# Operating System Fundamentals
 # The POSIX family of Standards (Portable Operating System Interface)
 # "Unix-like" Operating Systems (Linux)
 # Process Models
