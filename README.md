@@ -230,19 +230,19 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
     Antivirus:
 
 ## Package Management
-    apt provides a high-level commandline interface for the package
+    apt - provides a high-level commandline interface for the package
     management system. (includes a repository which allows for update)
     dpkg is a medium-level tool to install, build, remove and manage Debian packages. (no repo for updates)
     git - version management tool often ussed to clone git repos using git clone ...
     pip - A tool for installing and managing Python packages
 
-# Operating System Fundamentals
-    The POSIX family of Standards (Portable Operating System Interface)
-    "Unix-like" Operating Systems (Linux)
-    Process Models
-    Threading
-    File Systems
-    Permissions
+## Operating System Fundamentals
+# The POSIX family of Standards (Portable Operating System Interface)
+# "Unix-like" Operating Systems (Linux)
+# Process Models
+# Threading
+# File Systems
+# Permissions
 # Operating System Virtualization
     docker
 # Command-Line Shells
