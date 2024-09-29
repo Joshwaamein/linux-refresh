@@ -1,4 +1,4 @@
-## Systems Engineering Study
+## Systems Engineer Study
 
 Systems Engineering (also known as Infrastructure Engineering, Operations Engineering, or DevOps) is a challenging but rewarding career path. Because Systems Engineering draws from a wide variety of smaller topics, it can be hard to know where to start and in what order to begin. This resource is intended to give you a sketch of some of the learning-paths that that can lead you to a career in Systems Engineering.
 
@@ -11,6 +11,20 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
 ## Linux
     Important Linux Commands List:
 
+        ## User
+        su - switch user
+        sudo - run with root
+        sudo su - or sudo -i - switch user to root user
+        sudo is controlled by the sudoers file in /etc/sudo and should be edited with visudo. This command opens the sudoers file in a safe manner, preventing multiple simultaneous edits and performing syntax checks
+
+        Sudoers file syntax:
+        username ALL=(ALL:ALL) ALL
+            username/groupname: The name of the user or group (with % prefix for groups)
+            First ALL: Applies to all hosts
+            (ALL:ALL): The user can run commands as all users and all groups
+            Last ALL: The user can run all commands
+
+                
         ##File Commands:
 
         ls – directory listing
@@ -55,6 +69,19 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
 
         chmod 777 – read, write, execute for all
         chmod 755 – rwx for owner, rx for group and world
+
+        chown - change file owner and group
+        
+        ###EXAMPLES
+            chown root /u
+                    Change the owner of /u to "root".
+
+            chown root:staff /u
+                    Likewise, but also change its group to "staff".
+
+            chown -hR root /u
+                    Change the owner of /u and subfiles to "root".
+
         
         ##SSH:
 
@@ -68,7 +95,6 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
         grep -r pattern dir – search recursively for pattern in dir
         command | grep pattern – search for pattern in the output of command
         locate file – find all instances of file
-	apropos - search the manual page names and descriptions
         
         ##System Info:
 
@@ -149,6 +175,16 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
             /etc/network/interfaces - network interfaces
         /mnt and /media - mount drives (like usb flash)
 
+## Managing Users
+    adduser - create a new user or update default new user information (must be ran with root priv)
+        all users are listed in /etc/passwd as username:x:UID:GID:user_info:home_directory:login_shell. 
+         passwords are saved as a hash in /etc/shadow
+    useradd - doesnt set home directory or login shell. 
+    usermod - modify a user account
+    groupadd - create a new group
+    groupmod - modify a group definition on the system
+    gpasswd - administer /etc/group and /etc/gshadow (remove user from group)
+    groupdel - delete a group
 
 
 ## Bash Scripting:
@@ -193,6 +229,12 @@ Command line tools in Linux are all file based. Printers, disks and other hardwa
     Endpoint Detection and Protection Software:
     Antivirus:
 
+## Package Management
+    apt provides a high-level commandline interface for the package
+    management system. (includes a repository which allows for update)
+    dpkg is a medium-level tool to install, build, remove and manage Debian packages. (no repo for updates)
+    git - version management tool often ussed to clone git repos using git clone ...
+    pip - A tool for installing and managing Python packages
 
 # Operating System Fundamentals
     The POSIX family of Standards (Portable Operating System Interface)
